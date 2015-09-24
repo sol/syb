@@ -25,6 +25,7 @@ module Data.Generics (
   module Data.Generics.Text,      -- generic read and show
   module Data.Generics.Twins,     -- twin traversal, e.g., generic eq
   module Data.Generics.Builders,  -- term builders
+  module Data.Generics.Functor,   -- generic map
 
  ) where
 
@@ -37,3 +38,4 @@ import Data.Generics.Schemes
 import Data.Generics.Text
 import Data.Generics.Twins
 import Data.Generics.Builders
+import Data.Generics.Functor
