@@ -38,6 +38,7 @@ Library
                           Data.Generics.Text,
                           Data.Generics.Twins,
                           Data.Generics.Builders,
+                          Data.Generics.Functor,
                           
                           Generics.SYB,
                           Generics.SYB.Basics,
@@ -46,7 +47,8 @@ Library
                           Generics.SYB.Schemes,
                           Generics.SYB.Text,
                           Generics.SYB.Twins,
-                          Generics.SYB.Builders
+                          Generics.SYB.Builders,
+                          Generics.SYB.Functor
 
   if impl(ghc < 6.12) 
     ghc-options:          -package-name syb
